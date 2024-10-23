@@ -91,7 +91,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # Referal Settings
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'triggeredsoul_07ded') # owner username without @
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195')) #Log channel id ( make sure bot is admin )
 DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002067012611'))
