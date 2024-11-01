@@ -70,7 +70,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://file2link:2TDBFQ2qwvafph1f@file2link.rxzed.mongodb.net/?retryWrites=true&w=majority&appName=File2Link")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://A2ZMovie:A2Z123@movie.rxzed.mongodb.net/?retryWrites=true&w=majority&appName=Movie")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -117,7 +117,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/A2ZOFFICL')
 CHNL_LNK = environ.get('CHNL_LNK', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/A2ZMovieRequesst/15490') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'A2ZOFFICl')
+MSG_ALRT = environ.get('MSG_ALRT', 'A2ZOFFICIAL')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/A2ZOFFICL') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
