@@ -51,7 +51,7 @@ STREAMHTO = (environ.get('STREAMHTO', ''))
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1001953724858"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002228923018"))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1876329759').split()]
@@ -70,7 +70,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Movie:Z3xsyG1USv32t70l@cluster0.4ogrr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://file2link:2TDBFQ2qwvafph1f@file2link.rxzed.mongodb.net/?retryWrites=true&w=majority&appName=File2Link")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -93,8 +93,8 @@ REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal coun
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'triggeredsoul_07ded') # owner username without @
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002040878546')) #Log channel id ( make sure bot is admin )
-DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002040878546'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002197099470')) #Log channel id ( make sure bot is admin )
+DUMP_CHNL = int(environ.get('DUMP_CHNL', ''))
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
@@ -104,7 +104,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/A2ZMovieRequesst/15490') 
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4491dd753120960a1c3bf360cf45fae06c2e6eb6')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002187004711').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
@@ -112,12 +112,12 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "Lucy_Filter_bot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
 BOT_ID = environ.get("BOT_ID", "6040310745")
 S_GROUP = environ.get('S_GROUP', "weebs_support")
-S_CHANNEL = environ.get('S_CHANNEL', "codeflix_bots")
+S_CHANNEL = environ.get('S_CHANNEL', "A2ZOFFICL")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/A2ZOFFICL')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/team_netflix')
+CHNL_LNK = environ.get('CHNL_LNK', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/A2ZMovieRequesst/15490') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴄᴏᴅᴇғʟɪx ʙᴏᴛs')
+MSG_ALRT = environ.get('MSG_ALRT', 'A2ZOFFICl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/A2ZOFFICL') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
